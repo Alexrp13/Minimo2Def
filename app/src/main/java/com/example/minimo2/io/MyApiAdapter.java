@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MyApiAdapter {
     private static MyApiService API_SERVICE;
-    private static final String BASE_URL = "url_profe";
+    private static final String BASE_URL = "http://localhost:8080/";
 
     public static MyApiService getApiService(){
 
